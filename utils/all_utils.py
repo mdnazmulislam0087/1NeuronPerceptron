@@ -11,11 +11,18 @@ plt.style.use("fivethirtyeight") # THIS IS STYLE OF GRAPHS
 
 # prepare data
 def prepare_data(df):
+  """ This is used to separate the dependent and independent columns/features
+
+  Args:
+      df (pd.DataFrame): input is the pandas DataFrame 
+
+  Returns:
+      tuple: This returns the dependent and independent columns/features
+  """
   X = df.drop("y", axis=1)
-
   y = df["y"]
-
   return X, y
+
 
 # save model
 def save_model(model, filename):
