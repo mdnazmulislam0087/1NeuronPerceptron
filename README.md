@@ -1,6 +1,41 @@
 # 1NeuronPerceptron
 1Neuron | Perceptron
 
+## How to use this
+## First clone the repository-
+
+```bash
+
+https://github.com/mdnazmulislam0087/1NeuronPerceptron.git
+
+```
+## Create a new environment and use below code to install dependencies-
+``` bash
+pip install -r requirements.txt
+```
+
+## Run below codes one by one and
+### For and Gate 
+
+``` bash
+python and.py
+
+```
+### For OR Gate 
+``` bash
+python or.py
+
+```
+### For XOR Gate 
+```bash
+python xor.py
+```
+### For NAND Gate 
+```bash
+python nand.py
+```
+
+
 ## dataset used
 
 ### AND
@@ -50,8 +85,5 @@ x1 | x2 | y
 ![sample Image](plots/xor.png)
 
 
-# Instruction
-```bash
-git clone https://github.com/mdnazmulislam0087/1NeuronPerceptron.git
-
-```
+# To see Pypi Package see the below link
+[Read me editor](https://github.com/mdnazmulislam0087/1NeuronPerceptron_Pypi)
