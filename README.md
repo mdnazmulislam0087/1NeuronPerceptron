@@ -87,3 +87,6 @@ x1 | x2 | y
 
 # Get the Pypi Package of oneNeuronPerceptron in the below link
 [Pypi Package one Neuron](https://github.com/mdnazmulislam0087/1NeuronPerceptron_Pypi)
+
+# To run the jupyter version go to researchNotebook and run the notebook file or go to the below link
+[Jupyter version](https://github.com/mdnazmulislam0087/1NeuronPerceptron/tree/main/researchNotebook)
