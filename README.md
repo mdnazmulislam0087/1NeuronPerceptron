@@ -85,5 +85,5 @@ x1 | x2 | y
 ![sample Image](plots/xor.png)
 
 
-# To see Pypi Package see the below link
-[Read me editor](https://github.com/mdnazmulislam0087/1NeuronPerceptron_Pypi)
+# Get the Pypi Package of oneNeuronPerceptron in the below link
+[Pypi Package one Neuron](https://github.com/mdnazmulislam0087/1NeuronPerceptron_Pypi)
