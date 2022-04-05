@@ -1,3 +1,9 @@
+"""
+author: Nazmul 
+email: md.nazmul.islam0087@gmail.com
+"""
+
+
 import numpy as np
 
 

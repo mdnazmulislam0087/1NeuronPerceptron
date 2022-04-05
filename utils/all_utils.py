@@ -1,3 +1,9 @@
+"""
+author: Nazmul 
+email: md.nazmul.islam0087@gmail.com
+"""
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -26,6 +32,13 @@ def prepare_data(df):
 
 # save model
 def save_model(model, filename):
+  """ This is used to save the model in binary format.
+
+  Args:
+      model (python object): Trained Model
+      filename (filename): File name of the model that to be saved
+  """
+  
   model_dir = "models"
   os.makedirs(model_dir, exist_ok=True) # ONLY CREATE IF MODEL_DIR DOESN"T EXISTS
   filePath = os.path.join(model_dir, filename) # model/filename
@@ -34,6 +47,14 @@ def save_model(model, filename):
 
 # Save plot  
 def save_plot(df, file_name, model):
+  """This is used to save the plot of the model
+
+  Args:
+      df (Pandas Dataframe): This is the dataframe
+      file_name (object): Name of the file to be saved
+      model (object): model name that is Trained
+  """
+  
   def _create_base_plot(df):
     df.plot(kind="scatter", x="x1", y="x2", c="y", s=100, cmap="winter")
     plt.axhline(y=0, color="black", linestyle="--", linewidth=1)
